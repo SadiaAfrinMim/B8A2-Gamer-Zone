@@ -1,0 +1,65 @@
+@media screen and (max-width: 576px) {
+  .nav-section,
+  .nav-item,
+  .banner-section,
+  .gamer-section,
+  .image-section,
+  .play-section,
+  .career-section,
+  .button-logo,
+  .bottom-btn {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo {
+    margin-bottom: 24px;
+  }
+  .right-banner {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .left-banner img {
+    width: 100%;
+  }
+  .play-right {
+    padding: 20px;
+  }
+  img {
+    padding: 0 10px;
+    width: 100%;
+  }
+  .career-section {
+    padding: 0 10px;
+    display: none;
+  }
+  .career-list-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .gamer-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .right-section {
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+  }
+  .left-section {
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+  }
+
+  /* .hidden{
+        display: none;
+      } */
+  .footer-section,
+  .footer-logo,
+  .footer-sub {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+}

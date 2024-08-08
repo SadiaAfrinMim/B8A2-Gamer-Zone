@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+.berkshire-swash-regular {
+  font-family: "Berkshire Swash", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex {
+  display: flex;
+}
+main > section {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+header {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+nav {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+section {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  padding: 3rem 0;
+}
+/* shared style */
+.btn-primary {
+  background-color: #ff42ff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 24px;
+  color: white;
+  font-family: "Berkshire Swash", serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+/* nav-section */
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+.logo {
+  display: flex;
+  gap: 10px;
+  font-size: 2rem;
+}
+.logo img {
+  width: 70px;
+  height: 50px;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.nav-item li {
+  list-style: none;
+}
+.nav-item li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.input-text {
+  border: none;
+  padding: 0.6rem;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  font-family: "Berkshire Swash", serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  align-items: center;
+  display: inline-block;
+  position: relative;
+}
+.icon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+i:nth-child(odd) {
+  color: red;
+}
+/* banner-section */
+.banner-section {
+  justify-content: space-between;
+  align-items: center;
+}
+.right-banner {
+  width: 50%;
+
+  background-image: url("./images/Group\ 14.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: center;
+
+  align-content: center;
+}
+
+.banner-details {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.banner-tittle {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.banner-big-tittle {
+  background: linear-gradient(180deg, rgb(249, 72, 178), rgb(135, 88, 241));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 5rem;
+  font-weight: 800;
+}
+.banner-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.banner-item li {
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 23px;
+  color: rgb(83, 76, 100);
+  gap: 10px;
+}
+.button-section {
+  display: flex;
+  gap: 20px;
+}
+.go-btn {
+  background-color: rgb(78, 197, 247);
+}
+/* <!-- we are gamer --> */
+.gamer-section {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 13.134%,
+    rgba(255, 66, 165, 0.03) 87.942%
+  );
+}
+.left-gamer-section {
+  text-align: right;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.sub-tittle {
+  color: rgb(83, 76, 100);
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: right;
+}
+.dialoge {
+  color: rgb(83, 76, 100);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0%;
+}
+/* Online Games Funny Videos */
+.funny-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.image-section {
+  gap: 24px;
+  border-radius: 24px;
+}
+.play img {
+  position: relative;
+}
+.img-3 i {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  font-size: 4rem;
+  color: tomato;
+  transform: translate(-50%, -50%);
+}
+.position-image img {
+  width: 100%;
+}
+/* play-section */
+.play-section {
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.position-image {
+  position: absolute;
+  left: 45%;
+  top: 55%;
+}
+.play-online-section {
+  flex-direction: row-reverse;
+}
+/* career section */
+.career-section {
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ff42ff;
+  color: #ffff;
+  padding: 0 50px;
+  margin-top: 30px;
+}
+#color {
+  color: white;
+}
+.career-list li {
+  margin-bottom: 20px;
+}
+/* .right-section{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ } */
+.career-list-item {
+  display: flex;
+  gap: 150px;
+}
+.career-list li {
+  list-style: none;
+}
+/* logo btn */
+.button-section {
+  margin: 3rem 0;
+}
+.logo-btn img {
+  width: 80px;
+  height: 80px;
+}
+
+.logo-btn {
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 46px;
+  border: 2px solid #ff42ff;
+  padding: 1.5rem 3rem;
+}
+.logo-tittle {
+  font-family: "Berkshire Swash", serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+}
+.button-logo {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  row-gap: 30px;
+}
+.bottom-btn {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+/* footer */
+.footer-section {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.footer {
+  margin-top: 30px;
+  padding: 1rem 0;
+  background-color: blanchedalmond;
+}
+.footer-logo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
