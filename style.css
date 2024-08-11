@@ -65,27 +65,24 @@ section {
 .nav-item li {
   list-style: none;
 }
-.nav-item li a {
-  text-decoration: none;
-  font-size: 1.5rem;
-  font-weight: 500;
-}
-.input-text {
+.nav-item li button {
   border: none;
-  padding: 0.6rem;
-  border-radius: 8px;
-  background: rgba(11, 2, 35, 0.1);
+  background-color: transparent;
   font-family: "Berkshire Swash", serif;
   font-size: 1.5rem;
   font-weight: 500;
-  align-items: center;
-  display: inline-block;
-  position: relative;
 }
+#btn-follow{
+  background-color: rgba(128, 128, 128, 0.389);
+  padding: 5px 20px;
+  border-radius: 14px;
+  
+
+}
+
 .icon {
-  position: absolute;
-  right: 20px;
-  top: 20px;
+  margin-left: 20px;
+  font-size: 2rem;
 }
 
 i:nth-child(odd) {
@@ -95,15 +92,19 @@ i:nth-child(odd) {
 .banner-section {
   justify-content: space-between;
   align-items: center;
+  background-image: url("./images/Group\ 14.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.banner-big-tittle{
+  font-size: 1rem;
 }
 .right-banner {
   width: 50%;
 
-  background-image: url("./images/Group\ 14.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: center;
-
+  
   align-content: center;
 }
 
@@ -146,6 +147,12 @@ i:nth-child(odd) {
 .go-btn {
   background-color: rgb(78, 197, 247);
 }
+.left-banner{
+  width: 50%;
+}
+.left-banner img{
+  width: 100%;
+}
 /* <!-- we are gamer --> */
 .gamer-section {
   background: linear-gradient(
@@ -182,11 +189,20 @@ i:nth-child(odd) {
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 20px;
+  flex: 1;
+  
+ 
+ 
+ 
 }
 .image-section {
   gap: 24px;
   border-radius: 24px;
+  max-width: 1440px;
+  margin: 0 auto;
+  
+ 
 }
 .play img {
   position: relative;
@@ -199,19 +215,33 @@ i:nth-child(odd) {
   color: tomato;
   transform: translate(-50%, -50%);
 }
-.position-image img {
-  width: 100%;
-}
+
 /* play-section */
 .play-section {
   justify-content: space-between;
   align-items: center;
   position: relative;
 }
+.play-right{
+  width: 50%;
+  text-align: left;
+}
+.play-left{
+  position: relative;
+  width: 50%;
+}
+
 .position-image {
   position: absolute;
-  left: 45%;
+  left: -25%;
   top: 55%;
+}
+.position-image-2{
+  position: absolute;
+  right: -25%;
+  top: 55%;
+ 
+
 }
 .play-online-section {
   flex-direction: row-reverse;
@@ -222,7 +252,7 @@ i:nth-child(odd) {
   align-items: center;
   background-color: #ff42ff;
   color: #ffff;
-  padding: 0 50px;
+  padding: 50px;
   margin-top: 30px;
 }
 #color {
@@ -239,47 +269,57 @@ i:nth-child(odd) {
  } */
 .career-list-item {
   display: flex;
-  gap: 150px;
+  gap: 50px;
+}
+.right-section{
+  width: 50%;
+}
+.left-section{
+  width: 50%;
+}
+.left-section img{
+  width: 100%;
 }
 .career-list li {
   list-style: none;
 }
 /* logo btn */
-.button-section {
-  margin: 3rem 0;
+
+.button-logo {
+ 
+  margin: 50px auto;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+ 
+  
+}
+.logo-btn {
+  border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-basis: 100px;
+    outline: 1px solid violet;
+ 
 }
 .logo-btn img {
   width: 80px;
   height: 80px;
 }
 
-.logo-btn {
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  border-radius: 46px;
-  border: 2px solid #ff42ff;
-  padding: 1.5rem 3rem;
-}
+
 .logo-tittle {
   font-family: "Berkshire Swash", serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 23px;
+  width: max-content;
 }
-.button-logo {
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  row-gap: 30px;
-}
-.bottom-btn {
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
+
+
 /* footer */
 .footer-section {
   max-width: 1440px;

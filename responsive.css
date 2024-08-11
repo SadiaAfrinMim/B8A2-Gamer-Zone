@@ -1,15 +1,33 @@
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 320px) and (max-width: 576px) {
+  body{
+    width: 90%;
+  }
   .nav-section,
   .nav-item,
   .banner-section,
   .gamer-section,
   .image-section,
   .play-section,
-  .career-section,
-  .button-logo,
-  .bottom-btn {
+  .career-section
+  
+   {
     display: flex;
     flex-direction: column;
+    
+  }
+  section{
+    padding: 1rem 0;
+  }
+  .banner-big-tittle,.banner-tittle{
+    font-size: 4rem;
+    text-align: center;
+  }
+  .left-gamer-section{
+    text-align: center;
+  }
+  .sub-tittle{
+    text-align: center;
+    
   }
   .logo {
     margin-bottom: 24px;
@@ -19,7 +37,7 @@
     padding: 10px;
     margin-bottom: 10px;
   }
-  .left-banner img {
+  .left-banner{
     width: 100%;
   }
   .play-right {
@@ -30,26 +48,99 @@
     width: 100%;
   }
   .career-section {
-    padding: 0 10px;
-    display: none;
+    padding: 40px 10px;
   }
-  .career-list-item {
-    display: flex;
-    flex-direction: column;
+  .right-section{
+    width: 100%;
   }
+  
+
+ .career-list-item{
+    gap: 30px;
+    margin: 0;
+  }
+  
   .gamer-section {
     display: flex;
     flex-direction: column-reverse;
   }
-  .right-section {
-    padding: 10px;
-    margin: 0;
+ 
+  .left-section{
+    padding-top: 20px;
     width: 100%;
   }
-  .left-section {
-    padding: 10px;
-    margin: 0;
+  .play-image{
     width: 100%;
+  }
+  .play-left img{
+    width: 85%;
+    align-content: center;
+  }
+  .button-logo {
+ 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    
+  }
+  .play-right{
+    width: 100%;
+    
+    
+  }
+  .play-left-1{
+    position: relative;
+    width: 85%;
+    
+ 
+  
+  }
+  .play-left{
+    position: relative;
+    width: 100%;
+    
+ 
+  
+  }
+  
+  .position-image {
+    position: absolute;
+    left: 25%;
+    top: 55%;
+    height: 200px;
+    width: 200px;
+    transform: translate(65%,-50%);
+  
+  }
+  .position-image-2{
+    position: absolute;
+    right: -5%;
+    top: 55%;
+    height: 200px;
+    width: 200px;
+  
+  }
+  
+  .button-logo {
+ 
+  
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+   
+    
+  }
+  .logo-btn {
+    border-radius: 20px;
+      display: flex;
+      align-items: center;
+  
+      flex-basis: 50px;
+      outline: 1px solid violet;
+   
   }
 
   /* .hidden{
@@ -59,7 +150,7 @@
   .footer-logo,
   .footer-sub {
     width: 100%;
-    margin: 0;
+    margin: 10px;
     text-align: center;
   }
 }
