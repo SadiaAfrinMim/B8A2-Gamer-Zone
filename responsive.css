@@ -1,7 +1,5 @@
 @media screen and (min-width: 320px) and (max-width: 576px) {
-  body{
-    width: 90%;
-  }
+ 
   .nav-section,
   .nav-item,
   .banner-section,
@@ -72,6 +70,7 @@
   .play-image{
     width: 100%;
   }
+ 
   .play-left img{
     width: 85%;
     align-content: center;
@@ -89,13 +88,8 @@
     
     
   }
-  .play-left-1{
-    position: relative;
-    width: 85%;
-    
- 
   
-  }
+ 
   .play-left{
     position: relative;
     width: 100%;
@@ -103,14 +97,20 @@
  
   
   }
+  .play-left-1{
+    width: 80%;
+    height: 100%;
+    margin-left: 20%;
+    position: relative;
+  }
   
   .position-image {
     position: absolute;
-    left: 25%;
+    left: -25%;
     top: 55%;
     height: 200px;
     width: 200px;
-    transform: translate(65%,-50%);
+    
   
   }
   .position-image-2{
@@ -152,5 +152,8 @@
     width: 100%;
     margin: 10px;
     text-align: center;
+  }
+  .footer-sub{
+    width: 80%;
   }
 }
